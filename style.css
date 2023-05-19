@@ -336,7 +336,7 @@ nav ul li a:hover::after {
 }
 
 .btn {
-  color: #000000
+  color: #000000;
   font-weight: 900;
 }
 
