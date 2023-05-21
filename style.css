@@ -33,6 +33,7 @@ nav {
 
 .logo {
   width: 140px;
+  visibility: hidden; 
 }
 
 nav ul li {
@@ -64,7 +65,7 @@ nav ul li a:hover::after {
 }
 
 .header-text {
-  margin-top: 20%;
+  margin-top: 10%;
   font-size: 30px;
   color: #fff;
 }
@@ -291,6 +292,10 @@ nav ul li a:hover::after {
   background: #ff004f;
 }
 
+.container span {
+  color: #ff004f;
+}
+
 /*----------------Contact---------------*/
 
 .contact-left {
@@ -376,6 +381,20 @@ form .btn2 {
   color: #ff004f;
 }
 
+.contact-right span {
+  color: #ff004f;
+  
+}
+
+.fa-solid.fa-check {
+  color: #ff004f;
+  margin-right: 10px; 
+} 
+
+.confirmation-alert {
+  display: inline-block; 
+}
+
 /*--------------Small screens----------*/
 nav .fas {
   display: none;
@@ -387,7 +406,7 @@ nav .fas {
   }*/
 
   .header-text {
-    margin-top: 100%;
+    margin-top: 5%;
     font-size: 16px;
   }
   .header-text h1 {
